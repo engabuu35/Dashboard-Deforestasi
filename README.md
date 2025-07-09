@@ -32,7 +32,7 @@ Dashboard ini menyajikan data spasial dan temporal mengenai **kehilangan tutupan
 
 - **Dropdown Menu**:
   - **Peta**: Visualisasi peta Kalimantan berdasarkan provinsi, menunjukkan data tree cover loss per tahun
-  - **Regresi Penyebab Deforestasi**: Input 3 variabel X (LUPA INI) untuk memprediksi nilai Y (tree cover loss)
+  - **Regresi Penyebab Deforestasi**: Input 3 variabel X (kebakaran hutan, Jumlah alih lahan, dan Logging) untuk memprediksi nilai Y (tree cover loss)
   - **Regresi Dampak Deforestasi**: *[sedang dalam pengembangan]*
   - **About**: Penjelasan menyeluruh, berisi:
     - **Profil**: Deskripsi dan tujuan dashboard
