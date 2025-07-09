@@ -11,7 +11,9 @@ Dashboard interaktif berbasis **RShiny** untuk menganalisis tren deforestasi dan
 Berikut adalah tampilan visual dari dashboard yang dikembangkan menggunakan RShiny:
 
 ![Dashboard Preview](image/Dashboard.png)
+
 ![Peta Preview](image/Peta.png)
+
 ![Regresi Penyebab Preview](image/Regresi_Penyebab.png)
 
 
@@ -36,11 +38,8 @@ Dashboard ini menyajikan data spasial dan temporal mengenai **kehilangan tutupan
   - **Peta**: Visualisasi peta Kalimantan berdasarkan provinsi, menunjukkan data tree cover loss per tahun
   - **Regresi Penyebab Deforestasi**: Input 3 variabel X (kebakaran hutan, Jumlah alih lahan, dan Logging) untuk memprediksi nilai Y (tree cover loss)
   - **Regresi Dampak Deforestasi**: *[sedang dalam pengembangan]*
-  - **About**: Penjelasan menyeluruh, berisi:
-    - **Profil**: Deskripsi dan tujuan dashboard
-    - **Source**: Daftar sumber data
-    - **Statistical Analysis**: Teknik analisis data dan regresi yang digunakan
-    - **Anggota Tim**: Nama dan peran pengembang
+  - **Sumber Data**: Daftar sumber data
+  - **Unduh Data**: *[sedang dalam pengembangan]*
 
 ---
 
@@ -59,12 +58,9 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
     |── server.R                                # Logika aplikasi
     |── global.R (opsional)                     # Objek global dan package
     |── data/                                   # Dataset mentah dan gambar
-    |   └── peta_kalimantan.geojson             # Data spasial wilayah Kalimantan
-    |   └── tim1.jpg                            # Foto Anggota 1
-    |   └── tim2.jpg                            # Foto Anggota 2
-    |   └── tim3.jpg                            # Foto Anggota 3
-    |   └── Tree_Cover_Loss_2015-2024.xlsx      # Dataset Kehilangan Tutupan Lahan di Kalimantan Tahun 2015-2024
-    |   └── Variabel_Regresi_Compile.xlsx       # Data Variabel untuk Analisis Regresi
+    |   └── indonesia-prov.geojson              # Data spasial wilayah Kalimantan
+    |   └── deforestasi.xlsx                    # Dataset Kehilangan Tutupan Lahan di Kalimantan Tahun 2015-2024
+    |   └── reg_sebab.xlsx                      # Data Variabel untuk Analisis Regresi
 
 ---
 
@@ -81,6 +77,8 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 - `scales` – Untuk formatting skala dan label pada grafik  
 - `stringr` – Untuk manipulasi string  
 - `htmltools` – Untuk komponen HTML tambahan dalam UI
+- `tidy`
+- `plm`
 
 ---
 
