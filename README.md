@@ -10,7 +10,9 @@ Dashboard interaktif berbasis **RShiny** untuk menganalisis tren deforestasi dan
 
 Berikut adalah tampilan visual dari dashboard yang dikembangkan menggunakan RShiny:
 
-![Dashboard Preview](LINK GAMBARNYA)
+![Dashboard Preview](images/Dashboard.png)
+![Peta Preview](images/Peta.png)
+![Regresi Penyebab Preview](images/Regresi_Penyebab.png)
 
 
 ## 🧭 Deskripsi Singkat
@@ -48,7 +50,6 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 
 - [Global Forest Watch](https://www.globalforestwatch.org)
 - [Badan Pusat Statistik (BPS)](https://www.bps.go.id)
-- LAINNYA BLUM TAU
 
 ---
 
