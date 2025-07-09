@@ -2,7 +2,7 @@
 
 Dashboard interaktif berbasis **RShiny** untuk menganalisis tren deforestasi dan dampaknya di Pulau Kalimantan. Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah Komputasi Statistik oleh mahasiswa Politeknik Statistika STIS.
 
-📍 **[Link ke dashboard RShiny ](https://...)**
+📍 **[Link Menyusul ]()**
 
 ---
 
