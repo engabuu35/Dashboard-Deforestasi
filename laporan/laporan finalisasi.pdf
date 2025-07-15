@@ -1,3 +1,0 @@
-git mv laporan finalisasi.pdf laporan-final.pdf
-git commit -m "Rename laporan finalisasi.pdf to laporan-final.pdf"
-git push
