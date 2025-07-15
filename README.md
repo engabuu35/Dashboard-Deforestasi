@@ -10,12 +10,15 @@ Dashboard interaktif berbasis **RShiny** untuk menganalisis tren deforestasi dan
 
 Berikut adalah tampilan visual dari dashboard yang dikembangkan menggunakan RShiny:
 
-![Dashboard Preview](image/Dashboard.png)
+![Dashboard Preview](image/Dasboard.png)
 
 ![Peta Preview](image/Peta.png)
 
 ![Regresi Penyebab Preview](image/Regresi_Penyebab.png)
 
+![Unduh Data Preview](image/Unduh_Data.png)
+
+![Tentang Preview](image/Tentang.png)
 
 ## 🧭 Deskripsi Singkat
 
@@ -35,11 +38,12 @@ Dashboard ini menyajikan data spasial dan temporal mengenai **kehilangan tutupan
   - `pie chart` tree cover loss by driver (filter tahun & provinsi)
 
 - **Dropdown Menu**:
-  - **Peta**: Visualisasi peta Kalimantan berdasarkan provinsi, menunjukkan data tree cover loss per tahun
+  - **Peta Deforestasi**: Visualisasi peta Kalimantan berdasarkan provinsi, menunjukkan data tree cover loss per tahun
+  - **Peta Emisi Karbon Bruto**: Visualisasi peta Kalimantan berdasarkan provinsi, menunjukkan data gross carbon emission loss per tahun
   - **Regresi Penyebab Deforestasi**: Input 3 variabel X (kebakaran hutan, Jumlah alih lahan, dan Logging) untuk memprediksi nilai Y (tree cover loss)
-  - **Regresi Dampak Deforestasi**: *[sedang dalam pengembangan]*
-  - **Sumber Data**: Daftar sumber data
-  - **Unduh Data**: *[sedang dalam pengembangan]*
+  - **Regresi Dampak Deforestasi**: Input variabel X (deforestasi) untuk memprediksi nilai Y (gross carbon emission)
+  - **Unduh Data**: Download dataset untuk regresi penyebab dan regresi akibat deforestasi
+  - **Tentang**: Informasi tambahan tentang Dashboard Deforestasi
 
 ---
 
@@ -49,14 +53,14 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 
 - [Global Forest Watch](https://www.globalforestwatch.org)
 - [Badan Pusat Statistik (BPS)](https://www.bps.go.id)
-
+- [Copernicus CDS](https://cds.climate.copernicus.eu)
 ---
 
 ## 🗂️ Struktur Proyek
 
     |── ui.R                                    # Tampilan antarmuka utama 
     |── server.R                                # Logika aplikasi
-    |── global.R (opsional)                     # Objek global dan package
+    |── global.R                                # Objek global dan package
     |── data/                                   # Dataset mentah dan gambar
     |   └── indonesia-prov.geojson              # Data spasial wilayah Kalimantan
     |   └── deforestasi.xlsx                    # Dataset Kehilangan Tutupan Lahan di Kalimantan Tahun 2015-2024
@@ -94,7 +98,7 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 
 1. Menampilkan tren deforestasi 2015–2024 di Kalimantan berdasarkan provinsi  
 2. Menyediakan analisis hubungan antara deforestasi dan variabel lingkungan  
-3. Mempetakan tree cover loss dengan interaksi spasial  
+3. Mempetakan tree cover loss dan gross carbon emission dengan interaksi spasial  
 4. Menjadi sarana edukatif berbasis data untuk publik dan pemangku kebijakan
 
 ---
