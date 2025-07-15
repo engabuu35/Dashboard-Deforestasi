@@ -1,0 +1,294 @@
+/* ===================== VARIABEL WARNA ===================== */
+:root {
+  --gfw-green: #4C6C29;
+  --gfw-dark-green: #658022;
+  --gfw-cream: #F6F6F4;
+  --gfw-neutral: #FFFFFF;
+}
+
+/* ===================== FONT & DASAR ===================== */
+body, .content-wrapper, .main-header .logo, .main-header .navbar, 
+.main-sidebar, .box, .box-header, .small-box, 
+h1, h2, h3, h4, h5, h6, label, input, select, button {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/* ===================== HEADER ===================== */
+.main-header .navbar {
+  background-color: var(--gfw-green) !important;
+  color: var(--gfw-neutral) !important;
+}
+.main-header .logo {
+  background-color: var(--gfw-green) !important;
+  color: var(--gfw-neutral) !important;
+  font-size: 18px !important;
+  font-weight: bold;
+}
+.main-header .navbar .sidebar-toggle:hover {
+  background-color: #4d7d50 !important;
+}
+
+/* ===================== SIDEBAR ===================== */
+.main-sidebar {
+  background-color: var(--gfw-green) !important;
+}
+.sidebar-menu > li > a,
+.sidebar-menu .treeview-menu > li > a {
+  font-size: 13px !important;
+  font-weight: 500;
+  color: var(--gfw-neutral) !important;
+}
+.sidebar-menu > li.active > a,
+.sidebar-menu > li:hover > a,
+.sidebar-menu .treeview-menu > li:hover > a {
+  background-color: var(--gfw-dark-green) !important;
+  color: var(--gfw-neutral) !important;
+}
+
+/* ===================== BOX ===================== */
+.box {
+  background-color: var(--gfw-cream) !important;
+  border: none !important;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.box.box-solid > .box-header {
+  background-color: var(--gfw-dark-green) !important;
+  color: var(--gfw-neutral) !important;
+  padding: 10px;
+  border-radius: 6px 6px 0 0;
+}
+.box-title {
+  font-size: 15px !important;
+  font-weight: 600;
+}
+
+/* ===================== VALUE BOX ===================== */
+.small-box {
+  background-color: var(--gfw-cream) !important;
+  color: #333 !important;
+  border-radius: 6px;
+  height: 120px !important;
+  border-left: 4px solid var(--gfw-green);
+}
+.small-box .inner h3 {
+  font-size: 22px !important;
+  font-weight: bold;
+}
+.small-box .inner p {
+  font-size: 14px !important;
+}
+
+/* ===================== BUTTON ===================== */
+.btn, .btn-default, .btn-primary {
+  background-color: var(--gfw-green) !important;
+  color: var(--gfw-neutral) !important;
+  border: none !important;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: var(--gfw-dark-green) !important;
+}
+
+/* ===================== FORM ===================== */
+.form-control, .selectize-input {
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  font-size: 14px !important;
+}
+
+/* ===================== TABEL ===================== */
+table.dataTable {
+  background-color: var(--gfw-neutral) !important;
+  font-size: 13px;
+}
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_paginate {
+  color: #444;
+}
+
+/* ===================== TEKS PREDIKSI ===================== */
+.prediksi-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  padding-top: 16px;
+}
+
+/* ===================== HEADER ABOUT ===================== */
+.about-header {
+  background-image: url('header_about.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  padding: 80px 30px;
+}
+
+/* ===================== TABS ===================== */
+.nav-tabs > li > a {
+  color: black !important;
+  font-weight: bold !important;
+}
+.nav-tabs > li > a:hover {
+  border-bottom: 3px solid #1b5e20 !important;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border-bottom: 3px solid #1b5e20 !important;
+  background-color: transparent !important;
+  color: black !important;
+}
+.tab-content {
+  background-color: var(--gfw-cream) !important;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+/* ===================== SOURCE BOX ===================== */
+.source-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--gfw-cream);
+  border-left: 4px solid var(--gfw-green);
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.source-box img {
+  width: 65px;
+  height: auto;
+  margin-right: 15px;
+}
+.source-text {
+  color: #333;
+}
+.source-text h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+.source-text p {
+  margin: 3px 0 0;
+  font-size: 13px;
+}
+.source-text a {
+  color: blue;
+  text-decoration: none;
+}
+
+/* ===== Submenu (Treeview) ===== */
+.sidebar-menu .treeview-menu > li > a {
+  background-color: #3e5d28 !important; /* warna dasar submenu */
+  color: #ffffff !important;
+  padding-left: 25px !important;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-menu .treeview-menu > li > a:hover {
+  background-color: #6c8d3b !important; /* warna hover */
+  color: #fff !important;
+}
+
+/* Aktif pada submenu */
+.sidebar-menu .treeview-menu > li.active > a {
+  background-color: #5f7834!important;  /* warna aktif */
+  color: #fff !important;
+}
+
+/* ===================== SOURCE BOX ===================== */
+.source-box {
+  display: flex;
+  align-items: flex-start;
+  background-color: var(--gfw-cream);
+  border-left: 5px solid var(--gfw-green);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+.source-text h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e2e2e;
+}
+
+.source-text a {
+  display: block;
+  margin: 5px 0;
+  font-size: 13px;
+  color: #1b5e20;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.source-text a:hover {
+  text-decoration: underline;
+}
+
+.source-text p {
+  font-size: 13px;
+  color: #444;
+  margin: 0 0 5px 0;
+}
+
+/* Our team */
+.team-card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 25px 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #eee;
+  object-fit: cover;
+}
+
+.team-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.team-role {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.team-desc {
+  font-size: 13px;
+  color: #888;
+  min-height: 50px;
+}
+
+.team-email {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #4C6C29;
+  font-weight: bold;
+}
