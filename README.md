@@ -57,14 +57,22 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 ---
 
 ## 🗂️ Struktur Proyek
-
-    |── ui.R                                    # Tampilan antarmuka utama 
-    |── server.R                                # Logika aplikasi
-    |── global.R                                # Objek global dan package
-    |── data/                                   # Dataset mentah dan gambar
-    |   └── indonesia-prov.geojson              # Data spasial wilayah Kalimantan
-    |   └── deforestasi.xlsx                    # Dataset Kehilangan Tutupan Lahan di Kalimantan Tahun 2015-2024
-    |   └── reg_sebab.xlsx                      # Data Variabel untuk Analisis Regresi
+📁 r shiny 11/
+├── 📁 Data/                         # Folder data utama
+│   ├── data_bps.xlsx               # Data statistik BPS
+│   ├── deforestasi.xlsx            # Data kehilangan tutupan pohon (2015–2024)
+│   ├── hujan.xlsx                  # Data curah hujan
+│   ├── suhu.xlsx                   # Data suhu 
+│   ├── reg_sebab.xlsx              # Data regresi penyebab deforestasi
+│   ├── regresi_akibat.xlsx         # Data regresi dampak deforestasi
+│   └── indonesia-prov.geojson      # Data spasial indonesia untuk peta interaktif
+├── 📁 www/                          # Folder aset statis (gambar, css)
+│   ├── *.jpg / *.png               # Gambar untuk tampilan UI (foto tim, logo, dsb.)
+│   ├── style.css                   # Kustomisasi gaya CSS
+│   └── Analisis.pdf                # Dokumen analisis pendukung
+├── global.R                        # Inisialisasi data global & pemanggilan library
+├── ui.R                            # File antarmuka pengguna (User Interface)
+├── server.R                        # Logika backend aplikasi (Server Logic)
 
 ---
 
