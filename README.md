@@ -114,7 +114,7 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 
 ## 📌 Catatan
 
-Dashboard ini masih dalam tahap pengembangan aktif. Fitur "Regresi Dampak Deforestasi" akan segera tersedia.
+Harap perhatikan bahwa meskipun data diperoleh dari sumber terpercaya, pengguna tetap disarankan untuk memverifikasi ulang jika digunakan untuk kebijakan atau publikasi resmi.
 
 ---
 
