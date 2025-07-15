@@ -6,9 +6,9 @@ Dashboard interaktif berbasis **RShiny** untuk menganalisis tren deforestasi dan
 
 ---
 
-## 🖼️ Tampilan Dashboard
+## 🖼️ Preview Tampilan Dashboard
 
-Berikut adalah tampilan visual dari dashboard yang dikembangkan menggunakan RShiny:
+Berikut adalah preview tampilan visual dari dashboard yang dikembangkan menggunakan RShiny:
 
 ![Dashboard Preview](image/Dasboard.png)
 
