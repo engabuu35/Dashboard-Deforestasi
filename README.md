@@ -95,6 +95,14 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 
 ---
 
+## 📄 Laporan Final
+
+Laporan lengkap proyek ini dapat diakses melalui link berikut:
+
+[Buka laporan final (PDF)](./laporan/laporan-finalisasi.pdf)
+
+---
+
 ## 👩‍💻 Anggota Tim
 
 - Arif Budiman
