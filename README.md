@@ -22,7 +22,7 @@ Berikut adalah tampilan visual dari dashboard yang dikembangkan menggunakan RShi
 
 ## 🧭 Deskripsi Singkat
 
-Dashboard ini menyajikan data spasial dan temporal mengenai **kehilangan tutupan pohon**, **penyebab utama deforestasi**, dan **dampak lingkungan** seperti emisi karbon. Dengan fitur interaktif, pengguna dapat mengeksplorasi tren dan analisis regresi secara dinamis berdasarkan provinsi dan tahun.
+Dashboard ini menyajikan data spasial dan temporal mengenai **kehilangan tutupan pohon**, **penyebab utama deforestasi**, dan **dampak lingkungan** yaitu **emisi karbon**. Dengan fitur interaktif, pengguna dapat mengeksplorasi tren dan analisis regresi secara dinamis berdasarkan provinsi dan tahun.
 
 ---
 
