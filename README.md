@@ -99,7 +99,7 @@ Dashboard ini mengintegrasikan berbagai sumber resmi nasional dan internasional,
 
 Laporan lengkap proyek ini dapat diakses melalui link berikut:
 
-[Buka laporan final (PDF)](./laporan/laporan-finalisasi.pdf)
+[Buka laporan final (PDF)](./laporan/laporan-final.pdf)
 
 ---
 
